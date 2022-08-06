@@ -1,0 +1,29 @@
+{
+  "name": "myparcel",
+  "version": "1.0.0",
+  "description": "MyParcel",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lingamol/MyParcel.git"
+  },
+  "author": "Bakalov Oleg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lingamol/MyParcel/issues"
+  },
+  "homepage": "https://github.com/Lingamol/MyParcel#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "sass": "^1.54.3"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.17.1",
+    "simplelightbox": "^2.10.3"
+  }
+}
